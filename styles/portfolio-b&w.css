@@ -1,26 +1,26 @@
 /* Fonts */
 
 @font-face {
-	font-family:'Brown Sugar Font Family';
-	src: url('assets/Brown-Sugar-Font/Brown Sugar .ttf');
+	font-family: "Brown Sugar Font Family";
+	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
 }
 @font-face {
-	font-family:'code';
-	src: url('assets/code/CODE Light.otf');
+	font-family: "code";
+	src: url("../assets/code/CODE\ Light.otf");
 }
 @font-face {
-	font-family:'anka coder';
-	src: url('assets/anka-coder/AnkaCoder-r.ttf');
+	font-family: "anka coder";
+	src: url("../assets/anka-coder/AnkaCoder-r.ttf");
 }
 @font-face {
-	font-family:'Abhaya Libre';
-	src: url('assets/Abhaya_Libre/AbhayaLibre-Medium.ttf');
+	font-family: "Abhaya Libre";
+	src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
 }
 
 /* Webpage */
 
 html {
-	background-color: #FFA1A7;
+	background-color: #ffa1a7;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -34,30 +34,30 @@ header {
 }
 
 h1 {
-	font-family: 'Brown Sugar Font Family', sans-serif;
+	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 120px;
 	color: black;
 }
 
 h2 {
-	font-family: 'Brown Sugar Font Family', sans-serif;
+	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 64px;
-	color: #EDECED;
+	color: #edeced;
 }
 
 h3 {
 	position: absolute;
-	font-family: 'code', sans-serif;
+	font-family: "code", sans-serif;
 	font-size: 21px;
-	color: #EDECED;
+	color: #edeced;
 	top: 90px;
-	left: 110px
+	left: 110px;
 }
 
 /* Navigation */
 
 nav {
-	font-family: 'Anka Coder', sans-serif;
+	font-family: "Anka Coder", sans-serif;
 	font-size: 30px;
 	margin: 0px;
 	text-align: center;
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #EDECED;
+	color: #edeced;
 	text-decoration: none;
 	padding: 10px;
 }
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 .colour-photos {
 	display: grid;
-	grid-template-columns: repeat(5,200px);
+	grid-template-columns: repeat(5, 200px);
 	grid-gap: 50px;
 	justify-content: center;
 }
@@ -112,7 +112,7 @@ nav ul li a:hover {
 .footer {
 	position: relative;
 	top: 50px;
-	color: #FFA1A7;
+	color: #ffa1a7;
 	text-align: center;
 	padding: 4px;
 	background-color: black;

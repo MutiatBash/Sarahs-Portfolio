@@ -8,6 +8,8 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+/* fonts */
 @font-face {
 	font-family: "Brown Sugar Font Family";
 	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
@@ -38,7 +40,7 @@ header {
 	position: sticky;
 	top: 0;
 	background: var(--black-color);
-	padding: 1rem 4rem;
+	padding: 1rem 3.5rem;
 }
 
 .logo {
@@ -46,6 +48,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 0;
 }
 
 h1 {
@@ -57,7 +60,7 @@ h1 {
 
 h2 {
 	font-family: "Brown Sugar Font Family", sans-serif;
-	font-size: 64px;
+	font-size: 60px;
 	margin: 0;
 	color: var(--white-color);
 }
@@ -85,6 +88,7 @@ nav ul {
 	flex-direction: row;
 	justify-content: space-between;
 	gap: 2rem;
+	margin: 0;
 }
 
 nav ul li a {
@@ -186,6 +190,10 @@ main {
 	/* bottom: 0; */
 	color: var(--black-color);
 	text-align: center;
-	padding: 1rem;
+	padding: 0.5rem;
 	background-color: var(--pink-color);
+}
+
+.footer p {
+	margin-bottom: 0;
 }
