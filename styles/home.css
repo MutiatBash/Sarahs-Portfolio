@@ -1,0 +1,191 @@
+:root {
+	--white-color: #edeced;
+	--pink-color: #ffa1a7;
+	--black-color: #000000;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Brown Sugar Font Family";
+	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
+}
+@font-face {
+	font-family: "code";
+	src: url("../assets/code/CODE\ Light.otf");
+}
+@font-face {
+	font-family: "anka coder";
+	src: url("../assets/anka-coder/AnkaCoder-r.ttf");
+}
+@font-face {
+	font-family: "Abhaya Libre";
+	src: url("../assets/Abhaya_Libre/AbhayaLibre-Regular.ttf");
+}
+
+html,
+body {
+	background-color: var(--black-color);
+}
+
+header {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	gap: 5rem;
+	position: sticky;
+	top: 0;
+	background: var(--black-color);
+	padding: 1rem 4rem;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Brown Sugar Font Family", sans-serif;
+	font-size: 100px;
+	margin: 0;
+	color: #ffa1a7;
+}
+
+h2 {
+	font-family: "Brown Sugar Font Family", sans-serif;
+	font-size: 64px;
+	margin: 0;
+	color: var(--white-color);
+}
+
+h3 {
+	font-family: "code", sans-serif;
+	font-size: 21px;
+	color: var(--white-color);
+}
+
+nav {
+	font-family: "Anka Coder", sans-serif;
+	font-size: 28px;
+	text-align: center;
+	flex: 1;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+nav ul li a {
+	color: var(--white-color);
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: var(--pink-color);
+	text-decoration: underline;
+}
+
+.active {
+	color: #ffa1a7;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+}
+.herosection {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	padding: 2rem 0 0 0;
+	/* align-items: center; */
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 0 2.5rem;
+}
+.hero-img {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 0;
+	width: 75%;
+	gap: 2rem;
+	justify-content: space-between;
+}
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 20%;
+	color: var(--white-color);
+	font-family: "Abhaya Libre", sans-serif;
+	font-size: 24px;
+	padding-top: 4rem;
+}
+.small-images {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding-top: 4rem;
+}
+.small-images {
+	width: 30%;
+}
+.small-img img {
+	width: 100%;
+}
+.big-img {
+	width: 65%;
+	height: 100%;
+	/* overflow: hidden; */
+}
+.big-img img {
+	width: 95%;
+	height: 100%;
+	/* object-position: 0 50px; */
+	object-fit: contain;
+}
+.button-div {
+	position: absolute;
+	bottom: 12%;
+	right: 25%;
+}
+.button-div button {
+	background-color: var(--pink-color);
+	color: var(--black-color);
+	border: 1px solid var(--black-color);
+	padding: 0.8rem 1rem;
+	border-radius: 2rem;
+	font-family: "Anka Coder", sans-serif;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in;
+}
+.button-div button:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+	/* position: sticky; */
+	/* bottom: 0; */
+	color: var(--black-color);
+	text-align: center;
+	padding: 1rem;
+	background-color: var(--pink-color);
+}
