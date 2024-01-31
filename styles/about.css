@@ -1,20 +1,20 @@
 /* Fonts */
 
 @font-face {
-	font-family: "Brown Sugar Font Family";
-	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
+	font-family:'Brown Sugar Font Family';
+	src: url('Assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf');
 }
 @font-face {
-	font-family: "code";
-	src: url("../assets/code/CODE\ Light.otf");
+	font-family:'code';
+	src: url('Assets/Brown-Sugar-Font/code/CODE\ Light.otf');
 }
 @font-face {
-	font-family: "anka coder";
-	src: url("../assets/anka-coder/AnkaCoder-r.ttf");
+	font-family:'anka coder';
+	src: url('Assets/Brown-Sugar-Font/anka-coder/AnkaCoder-r.ttf');
 }
 @font-face {
-	font-family: "Abhaya Libre";
-	src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+	font-family:'Abhaya Libre';
+	src: url('Assets/Brown-Sugar-Font/Abhaya_Libre/AbhayaLibre-Medium.ttf');
 }
  
  /* Webpage */
@@ -27,10 +27,11 @@
  
  /* Headers */
  
- header {
+ #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
  }
  
  h1 {
@@ -38,17 +39,31 @@
    font-size: 120px;
    color: #FFA1A7;
    position: absolute;
-   top: 95px; /* Adjust this value to position the h1 vertically on the image */
+   top: 165px; /* Adjust this value to position the h1 vertically on the image */
    right: 100px;
    width: 50%; /* Adjust this value to control how much of the h1 is on the image */
    z-index: 1;
  }
  
+ h2 {
+	font-family: 'Brown Sugar Font Family', sans-serif;
+	font-size: 64px;
+	color: #000000;
+}
+
+h3 {
+	position: absolute;
+	font-family: 'code', sans-serif;
+	font-size: 21px;
+	color: #000000;
+	top: 90px;
+	left: 70px;
+}
 
  
  /* Navigation */
  
- .navbar navbar-expand-lg navbar-light mb-1 menu {
+ #l {
     font-family: 'Anka Coder', sans-serif;
     font-size: 30px;
     margin: 5px;
@@ -72,6 +87,10 @@
     text-decoration: none;
     padding: 10px;
  }
+
+ #navbarNav ul {
+   flex: 1;
+ }
  
  #navbarNav ul li a:hover {
     color: #FFA1A7;
@@ -80,13 +99,13 @@
  }
 
  
- #flexy {
+ /*#realnav {
    margin-right: 0;
    display: flex;
    justify-content: space-between;
 
  }
-
+*/
 
  /* Body */
  
@@ -134,6 +153,11 @@
 
  #margin {
     margin-bottom: 0;
+ }
+
+ .container {
+   padding-top: 30px;
+   padding-bottom: 0;
  }
  
  #pg1 {
@@ -196,4 +220,3 @@
  .footer > p {
     padding-top: 8px;
  }
-
