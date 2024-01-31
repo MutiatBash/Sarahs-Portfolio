@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sarah's Photography</title>
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        /* Font Definitions */
+        @font-face {
+            font-family: 'Brown Sugar Font Family';
+            src: url('Assets/Brown-Sugar-Font/Brown Sugar .ttf');
+        }
+
+        @font-face {
+            font-family: 'code';
+            src: url('Assets/CODE Light.otf');
+        }
+
+        @font-face {
+            font-family: 'anka coder';
+            src: url('Assets/anka-coder.ttf');
+        }
+
+        @font-face {
+            font-family: 'Abhaya Libre';
+            src: url('Assets/Abhaya_Libre/AbhayaLibre-Medium.ttf');
+        }
+
+        /* Body Styling */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-image: url('contact image.jpg');
+            background-size: cover; /* Change from 'cover' to 'contain' */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Fixed background attachment for better responsiveness */
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: transparent;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        /* Logo Styling */
+        .logo h1 {
+            margin: 0;
+            font-family: 'Brown Sugar Font Family', sans-serif;
+            font-size: 120px;
+            color: #EDECED;
+        }
+
+        .logo h2 {
+            margin: 0;
+            font-family: 'code', sans-serif;
+            font-size: 64px;
+            color: #EDECED;
+        }
+
+        /* Heading 3 Styling */
+        h3 {
+            font-family: 'Brown Sugar Font Family', sans-serif;
+            font-size: 80px;
+            color: #FFA1A7;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        /* Navigation Styling */
+        nav {
+            font-family: 'Anka Coder', sans-serif;
+            font-size: 20px;
+            margin: 3px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 40px;
+        }
+
+        nav ul li a {
+            color: #EDECED;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            color: #FFA1A7;
+            text-decoration: underline;
+        }
+
+        /* Container Fluid Styling */
+        .container-fluid {
+            padding: 50px;
+        }
+
+        /* Section Styling */
+        section {
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 20px;
+            font-family: 'Abhaya Libre', sans-serif;
+        }
+
+        /* Get In Touch Section Styling */
+        .get-in-touch-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Abhaya Libre', sans-serif;
+            background-color: transparent;
+            color: #fff; /* Text color set to white */
+        }
+
+        /* Contact Form Section Styling */
+        .contact-form-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Abhaya Libre', sans-serif;
+            background-color: #FFA1A7;
+            color: #000000;
+        }
+
+        /* Form Styling */
+        form {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #FFA1A7;
+            color: #000000;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #EDECED;
+        }
+
+        /* Address Positioning */
+        .left {
+            position: relative;
+            top: 70px;
+            left: 30px;
+        }
+
+        .right {
+            position: relative;
+            top: 185px;
+            left: 100px;
+        }
+
+        /* Contact Address Positioning */
+        .contact-address {
+            margin-top: 20px;
+            font-style: normal;
+        }
+
+        /* Footer */
+        .footer {
+            position: relative;
+            top: 70px;
+            color: black;
+            text-align: center;
+            padding: 4px;
+            background-color: #FFA1A7;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Sarah's</h1>
+            <h2>Photography</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="about-me.html">ABOUT ME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact-me.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Container Fluid Section -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Get In Touch Section -->
+            <div class="col-md-6">
+                <section class="get-in-touch-section">
+                    <h3>Get In <br> Touch</h3>
+                    <p><strong>Contact Address:</strong></p>
+                    <p><strong>Studio:</strong> <br> 123 London <br> St. London, ST 12345</p>
+                    <p><strong>Email:</strong> <br> hello@sarahsphotography.com</p>
+                    <p><strong>Phone:</strong> <br> +1 (555) 123-4567</p>
+                    <p><strong>Opening Hours:</strong> <br> Mon-Fri 9:00 AM - 5:00 PM</p>
+                </section>
+            </div>
+
+            <!-- Contact Form Section -->
+            <div class="col-md-6">
+                <section class="contact-form-section">
+                    <h4>Send us a Message</h4>
+                    <p>For bookings and inquiries, feel free to contact us using the form below.</p>
+                    <form action="#" method="post">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button type="submit">Book a shoot</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Sarah's Photography. All rights reserved.</p>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
