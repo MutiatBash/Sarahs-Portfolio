@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-    font-family:'Brown Sugar Font Family';
-    src: url('./Assets/Brown\ Sugar\ Fonts/');
- }
- @font-face {
-    font-family:'code';
-    src: url('assets/code/CODE Light.otf');
- }
- @font-face {
-    font-family:'anka coder';
-    src: url('assets/anka-coder/AnkaCoder-r.ttf');
- }
- @font-face {
-    font-family:'Abhaya Libre';
-    src: url('./Assets/AbhayaLibre\ Fonts/');
- }
+	font-family: "Brown Sugar Font Family";
+	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
+}
+@font-face {
+	font-family: "code";
+	src: url("../assets/code/CODE\ Light.otf");
+}
+@font-face {
+	font-family: "anka coder";
+	src: url("../assets/anka-coder/AnkaCoder-r.ttf");
+}
+@font-face {
+	font-family: "Abhaya Libre";
+	src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+}
  
  /* Webpage */
  
