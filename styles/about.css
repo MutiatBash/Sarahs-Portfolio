@@ -29,9 +29,7 @@
  
  #header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
+    justify-content: space-evenly;
  }
  
  h1 {
