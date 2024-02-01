@@ -41,6 +41,7 @@ header {
 	top: 0;
 	background: var(--black-color);
 	padding: 1.2rem 3.5rem;
+	z-index: 1;
 }
 
 .logo {
@@ -107,25 +108,24 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
-main {
+.container-sect {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 2rem 3rem 0 3rem;
 	margin-bottom: 0;
 }
 .herosection {
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
-	padding: 2rem 0 0 0;
-	/* align-items: center; */
 	justify-content: space-between;
-	overflow: hidden;
-	padding: 0 2.5rem;
+	/* padding: 0 2rem; */
 }
 .hero-img {
 	display: flex;
+	position: relative;
 	flex-direction: row;
 	padding-bottom: 0;
 	width: 75%;
@@ -135,7 +135,7 @@ main {
 .hero-text {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 3rem;
 	width: 20%;
 	color: var(--white-color);
 	font-family: "Abhaya Libre", sans-serif;
@@ -167,8 +167,8 @@ main {
 }
 .button-div {
 	position: absolute;
-	bottom: 12%;
-	right: 25%;
+	bottom: 18%;
+	right: 30%;
 }
 .button-div button {
 	background-color: var(--pink-color);
