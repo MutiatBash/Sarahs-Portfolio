@@ -24,6 +24,7 @@ html {
 	background-color: #000000;
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-top: 0;
 }
 
 /* Headers */
@@ -111,10 +112,10 @@ nav ul li a:hover {
 /* Footer */
 
 .footer {
-	position: relative;
 	top: 50px;
 	color: black;
 	text-align: center;
 	padding: 4px;
 	background-color: #FFA1A7;
+	margin-top: 30px;
 }
