@@ -51,7 +51,7 @@ h2 {
 
 h3 {
 	position: absolute;
-	font-family: 'code', sans-serif;
+	font-family: "code", sans-serif;
 	font-size: 21px;
 	color: #000000;
 	top: 90px;
@@ -162,12 +162,16 @@ body {
 	margin-top: 150px;
 	margin-left: 110px;
 	line-height: 30px;
+	font-family: "Abhaya Libre", sans-serif;
+	font-size: 18px;
 }
 
 #pg2 {
 	margin-top: 5px;
 	margin-left: 110px;
 	line-height: 30px;
+	font-family: "Abhaya Libre", sans-serif;
+	font-size: 18px;
 }
 
 #img-p {
