@@ -52,15 +52,15 @@ header {
 	gap: 0;
 }
 
-
-h2 {
+.logo h2 {
 	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 60px;
 	margin: 0;
 	color: #000;
+	line-height: 0.8;
 }
 
-h3 {
+.logo h3 {
 	font-family: "code", sans-serif;
 	font-size: 21px;
 	color: #000;
@@ -185,9 +185,9 @@ body {
 }
 
 h1 {
-	font-family: 'Brown Sugar Font Family', sans-serif;
+	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 120px;
-	color: #FFA1A7;
+	color: #ffa1a7;
 	position: absolute;
 	top: 180px; /* Adjust this value to position the h1 vertically on the image */
 	right: 100px;
@@ -200,8 +200,7 @@ h1 {
 }
 
 .container {
-	padding-top: 30px;
-	padding-bottom: 0;
+	padding: 30px 0;
 }
 
 #pg1 {
@@ -256,15 +255,13 @@ h1 {
 /* Footer */
 
 .footer {
-	position: relative;
-	top: 70px;
 	color: black;
 	text-align: center;
-	padding: 4px;
+	padding: 8px;
 	background-color: #ffa1a7;
 	margin-top: 0;
 }
 
 .footer > p {
-	padding-top: 8px;
+	margin: 0;
 }
