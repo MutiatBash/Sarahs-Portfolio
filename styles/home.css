@@ -105,6 +105,11 @@ nav ul li a:hover {
 	color: #ffa1a7;
 }
 
+.homelink {
+	color:transparent;
+	text-decoration: none;
+}
+
 main {
 	display: flex;
 	flex-direction: column;

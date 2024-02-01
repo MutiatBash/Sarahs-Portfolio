@@ -14,83 +14,91 @@
 }
 @font-face {
 	font-family: "Abhaya Libre";
-	src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+	src: url("../assets/Abhaya_Libre/AbhayaLibre-Regular.ttf");
 }
 
 /* Webpage */
 
-html {
-	background-color: #000000;
-	margin-left: 50px;
-	margin-right: 50px;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-main {
-	background-color: #EDECED;
+html {
+	background-color: #000;
 }
 /* Headers */
 
 header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	gap: 5rem;
+	background: #000;
+	padding: 1rem 3.5rem;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0;
 }
 
 h1 {
 	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 120px;
+	margin: 0;
 	color: #ffa1a7;
 }
 
 h2 {
 	font-family: "Brown Sugar Font Family", sans-serif;
-	font-size: 64px;
+	font-size: 60px;
+	margin: 0;
 	color: #edeced;
 }
 
 h3 {
-	position: absolute;
 	font-family: "code", sans-serif;
 	font-size: 21px;
 	color: #edeced;
-	top: 90px;
-	left: 110px;
+}
+.active {
+	color: #ffa1a7;
 }
 
-/* Navigation */
+/* navigation */
 
 nav {
 	font-family: "Anka Coder", sans-serif;
-	font-size: 30px;
-	margin: 0px;
+	font-size: 28px;
 	text-align: center;
-	padding: 5px;
+	flex: 1;
 }
 
-nav li {
+nav ul li {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
-
-nav ul li {
-	display: inline-block;
-	margin: 0 40px;
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+	margin: 0;
 }
 
 nav ul li a {
 	color: #edeced;
 	text-decoration: none;
-	padding: 10px;
 }
 
 nav ul li a:hover {
 	color: #ffa1a7;
 	text-decoration: underline;
-}
-
-.active {
-	color: #ffa1a7;
 }
 
 /* Body */
@@ -105,27 +113,20 @@ nav ul li a:hover {
 	font-family: "Abhaya Libre", sans-serif;
 }
 
-.left {
-	position: relative;
-	top: 70px;
-	left: 30px;
-}
-
-.right {
-	position: absolute;
-	top: 185px;
-	left: 800px;
-}
-
 .page-title {
 	position: absolute;
-	top: 120px;
-	left: 220px;
+	top: 140px;
+	left: 140px;
 	z-index: 1;
 }
 
 .image-container {
 	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	position: relative;
+	padding: 20px 40px 8px 40px;
 }
 
 .img-container figure {
@@ -145,8 +146,8 @@ nav ul li a:hover {
 
 .footer {
 	position: relative;
-	top: 70px;
-	/* bottom:0; */
+	top: 40px;
+	bottom:0;
 	color: black;
 	text-align: center;
 	padding: 4px;

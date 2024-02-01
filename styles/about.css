@@ -1,72 +1,125 @@
 /* Fonts */
 
 @font-face {
-font-family: "Brown Sugar Font Family";
-src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
+	font-family: "Brown Sugar Font Family";
+	src: url("../assets/Brown-Sugar-Font/Brown\ Sugar\ .ttf");
 }
 @font-face {
-font-family: "code";
-src: url("../assets/code/CODE/Light.otf");
+	font-family: "code";
+	src: url("../assets/code/CODE\ Light.otf");
 }
 @font-face {
-font-family: "anka coder";
-src: url("../assets/anka-coder/AnkaCoder-r.ttf");
+	font-family: "anka coder";
+	src: url("../assets/anka-coder/AnkaCoder-r.ttf");
 }
 @font-face {
-font-family: "Abhaya Libre";
-src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+	font-family: "Abhaya Libre";
+	src: url("../assets/Abhaya_Libre/AbhayaLibre-Medium.ttf");
 }
 
 /* Webpage */
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 html {
-   background-color: #EDECED;
-   margin-left: 50px;
-   margin-right: 50px;
+	background-color: #fff;
 }
 
 /* Headers */
 
-#header {
+/* #header {
 	display: flex;
 	justify-content: space-evenly;
+} */
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+	position: sticky;
+	background: #fff;
+	padding: 1rem 3rem;
 }
 
-h1 {
-	font-family: 'Brown Sugar Font Family', sans-serif;
-	font-size: 120px;
-	color: #FFA1A7;
-	position: absolute;
-	top: 165px; /* Adjust this value to position the h1 vertically on the image */
-	right: 100px;
-	width: 50%; /* Adjust this value to control how much of the h1 is on the image */
-	z-index: 1;
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0;
 }
+
 
 h2 {
-	font-family: 'Brown Sugar Font Family', sans-serif;
-	font-size: 64px;
-	color: #000000;
+	font-family: "Brown Sugar Font Family", sans-serif;
+	font-size: 60px;
+	margin: 0;
+	color: #000;
 }
 
 h3 {
-	position: absolute;
 	font-family: "code", sans-serif;
 	font-size: 21px;
-	color: #000000;
-	top: 90px;
-	left: 70px;
+	color: #000;
+}
+#active {
+	color: #ffa1a7;
 }
 
+/* navigation */
+
+nav {
+	font-family: "Anka Coder", sans-serif;
+	font-size: 28px;
+	text-align: center;
+	flex: 1;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+	margin: 0;
+}
+
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #ffa1a7;
+	text-decoration: underline;
+}
 
 /* Navigation */
 
+#flexy {
+	flex: 1;
+}
+
 #l {
-	font-family: 'Anka Coder', sans-serif;
+	font-family: "Anka Coder", sans-serif;
 	font-size: 30px;
-	margin: 5px;
+	/* margin: 5px; */
 	text-align: center;
 	padding: 10px;
+}
+.homelink {
+	color: transparent;
+	text-decoration: none;
+}
+.homelink:hover {
+	text-decoration: none !important;
 }
 
 nav li {
@@ -75,27 +128,21 @@ nav li {
 	margin: 0;
 }
 
-nav ul li {
-	display: inline-block;
-	margin: 0 40px;
-}
-
 nav ul li a {
-	color: #EDECED;
+	color: #000000;
 	text-decoration: none;
-	padding: 10px;
+	/* padding: 10px; */
 }
 
-#navbarNav ul {
+/* #navbarNav ul {
 	flex: 1;
-}
+} */
 
 #navbarNav ul li a:hover {
-	color: #FFA1A7;
+	color: #ffa1a7;
 	text-decoration: underline;
 	margin-right: 0;
 }
-
 
 /*#realnav {
   margin-right: 0;
@@ -119,34 +166,33 @@ body {
 .container > .row {
 	margin-left: 0;
 	margin-right: 0;
-
 }
 
-.col-12, .col-lg {
+.col-12,
+.col-lg {
 	padding-left: 0;
 	padding-right: 0;
 }
 
 .colour {
-	color: #FFA1A7;
-	font-family: 'Abhaya Libre', sans-serif;
+	color: #ffa1a7;
+	font-family: "Abhaya Libre", sans-serif;
 }
 
 .b-w {
-	color: #EDECED;
-	font-family: 'Abhaya Libre', sans-serif;
+	color: #edeced;
+	font-family: "Abhaya Libre", sans-serif;
 }
 
-.left {
-	position: relative;
-	top: 70px;
-	left: 30px;
-}
-
-.right {
+h1 {
+	font-family: 'Brown Sugar Font Family', sans-serif;
+	font-size: 120px;
+	color: #FFA1A7;
 	position: absolute;
-	top: 185px;
-	left: 800px;
+	top: 180px; /* Adjust this value to position the h1 vertically on the image */
+	right: 100px;
+	width: 50%; /* Adjust this value to control how much of the h1 is on the image */
+	z-index: 1;
 }
 
 #margin {
@@ -159,8 +205,8 @@ body {
 }
 
 #pg1 {
-	margin-top: 150px;
-	margin-left: 110px;
+	/* margin-top: 150px; */
+	padding-left: 110px;
 	line-height: 30px;
 	font-family: "Abhaya Libre", sans-serif;
 	font-size: 18px;
@@ -168,7 +214,7 @@ body {
 
 #pg2 {
 	margin-top: 5px;
-	margin-left: 110px;
+	padding-left: 110px;
 	line-height: 30px;
 	font-family: "Abhaya Libre", sans-serif;
 	font-size: 18px;
@@ -199,7 +245,7 @@ body {
 
 .image-container figure img:hover {
 	transform: scale(1.1);
-	transition: transform 0.5s ease-in-out ;
+	transition: transform 0.5s ease-in-out;
 }
 
 #div2 {
@@ -215,7 +261,7 @@ body {
 	color: black;
 	text-align: center;
 	padding: 4px;
-	background-color: #FFA1A7;
+	background-color: #ffa1a7;
 	margin-top: 0;
 }
 
