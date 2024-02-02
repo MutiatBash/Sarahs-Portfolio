@@ -1,7 +1,6 @@
 # Sarah The Photographer
 
-This is a group portfolio project of a fictional photographer called Sarah. She specialises in headshots
-for acting and modelling. She is based in London but provides mobile services also. She currently needs a portfolio website were she can showcase her work in order to reach more clients.
+This is a group portfolio project of a fictional photographer called Sarah. She is a potrait photographer that specializes in headshots for actors and models. She is based in London but provides mobile services and also available to travel. She currently needs a portfolio website to enable her showcase her work so as to reach more clients.
 
 ![portfolio image](./readme-images/about.png)
 
