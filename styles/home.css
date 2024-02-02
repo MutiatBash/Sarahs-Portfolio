@@ -188,6 +188,7 @@ nav ul li a:hover {
 button a {
 	text-decoration: none;
 	color: black;
+	font-weight: 600;
 }
 
 /* Footer */
