@@ -1,7 +1,9 @@
-## Sarah The Photographer
+# Sarah The Photographer
 
 This is a group portfolio project of a fictional photographer called Sarah. She specialises in headshots
-for acting and modelling. She is based in London but provide mobile services also. She currently needs a portfolio website were she can showcase her work in order to reach more clients.
+for acting and modelling. She is based in London but provides mobile services also. She currently needs a portfolio website were she can showcase her work in order to reach more clients.
+
+![portfolio image](./readme-images/about.png)
 
 ## The Brief
 
@@ -39,12 +41,32 @@ A github repository was created to ensure collaboration as a team. Each member c
 Frontend: HTML, CSS
 Other Tools: Git, VSCode, Bootstrap
 
-#### Sarah's Portfolio
+## Sarah's Portfolio
 
 [Sarah's Portfolio](sarahs-portfolio-project.vercel.app)
 
-![portfolio image](sarahs-portfolio.png)
+#### Home Page
+![portfolio image](./readme-images/home.png)
 
-#### Team Members
+#### About Page
+![portfolio image](./readme-images/about.png)
+
+#### Portfolio Page
+![portfolio image](./readme-images/portfolio.png)
+
+#### Contact Page
+![portfolio image](./readme-images/contact.png)
+
+## Team Members
 
 -  [Mutiat Bashua](https://github.com/MutiatBash)
+-  [Bolaji](https://github.com/toomanyfishb)
+-  [Beatrice Ajah](https://github.com/Onyiajah)
+-  [Priscilla](https://github.com/Pazil24)
+
+## Conclusion
+
+This project enhanced our understanding of a responsive web design, frontend
+technologies like Bootstrap, and the importance of user-centric design for a seamless user
+experience. Additionally, handling tasks such as code optimization, and addressing compatibility issues broadened our knowledge in building a user-friendly web page.
+Overall, the group project provided a holistic view of the web development process, from planning and design to implementation and testing, significantly enriching our skill set.
