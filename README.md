@@ -46,15 +46,19 @@ Other Tools: Git, VSCode, Bootstrap
 [Sarah's Portfolio](sarahs-portfolio-project.vercel.app)
 
 #### Home Page
+
 ![portfolio image](./readme-images/home.png)
 
 #### About Page
+
 ![portfolio image](./readme-images/about.png)
 
 #### Portfolio Page
+
 ![portfolio image](./readme-images/portfolio.png)
 
 #### Contact Page
+
 ![portfolio image](./readme-images/contact.png)
 
 ## Team Members
@@ -64,7 +68,7 @@ Other Tools: Git, VSCode, Bootstrap
 -  [Beatrice Ajah](https://github.com/Onyiajah) - Contact Page Implementation
 -  [Priscilla](https://github.com/Pazil24) - About Page Implementation
 
-## Conclusion
+## Key Takeaways
 
 This project enhanced our understanding of a responsive web design, frontend
 technologies like Bootstrap, and the importance of user-centric design for a seamless user
