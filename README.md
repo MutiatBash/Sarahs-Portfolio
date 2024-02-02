@@ -59,10 +59,10 @@ Other Tools: Git, VSCode, Bootstrap
 
 ## Team Members
 
--  [Mutiat Bashua](https://github.com/MutiatBash)
--  [Bolaji](https://github.com/toomanyfishb)
--  [Beatrice Ajah](https://github.com/Onyiajah)
--  [Priscilla](https://github.com/Pazil24)
+-  [Mutiat Bashua](https://github.com/MutiatBash) - Home Page Implementation
+-  [Bolaji](https://github.com/toomanyfishb) - Portfolio Page Implementation
+-  [Beatrice Ajah](https://github.com/Onyiajah) - Contact Page Implementation
+-  [Priscilla](https://github.com/Pazil24) - About Page Implementation
 
 ## Conclusion
 
