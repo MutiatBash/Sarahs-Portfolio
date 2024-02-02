@@ -3,6 +3,8 @@
 This is a group portfolio project of a fictional photographer called Sarah. She specialises in headshots
 for acting and modelling. She is based in London but provides mobile services also. She currently needs a portfolio website were she can showcase her work in order to reach more clients.
 
+![portfolio image](./readme-images/about.png)
+
 ## The Brief
 
 Sarah is a professional photographer who specializes in portrait photography.
@@ -43,7 +45,17 @@ Other Tools: Git, VSCode, Bootstrap
 
 [Sarah's Portfolio](sarahs-portfolio-project.vercel.app)
 
-![portfolio image](sarahs-portfolio.png)
+#### Home Page
+![portfolio image](./readme-images/home.png)
+
+#### About Page
+![portfolio image](./readme-images/about.png)
+
+#### Portfolio Page
+![portfolio image](./readme-images/portfolio.png)
+
+#### Contact Page
+![portfolio image](./readme-images/contact.png)
 
 ## Team Members
 
