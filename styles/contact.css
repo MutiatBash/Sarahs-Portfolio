@@ -44,82 +44,72 @@ body {
 /* Header Styling */
 header {
 	display: flex;
-	align-items: center;
-	gap: 5rem;
-	background: transparent;
-	padding: 1.3rem 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }
 
 /* Logo Styling */
-.logo {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
 .logo h2 {
-	font-family: "Brown Sugar Font Family", sans-serif;
-	font-size: 60px;
-	margin: 0;
-	color: #edeced;
-    line-height: 0.8;
+    margin: 0;
+    font-family: 'Brown Sugar Font Family', sans-serif;
+    font-size: 60px;
+    color: #EDECED;
 }
 
-.logo h3 {
-	margin: 0;
-	font-family: "code", sans-serif;
-	font-size: 21px;
-	color: #edeced;
+.logo h1 {
+    margin: 0;
+    font-family: 'code', sans-serif;
+    font-size: 20px;
+    color: #EDECED;
 }
 
 /* Heading 3 Styling */
-.colour {
-	font-family: "Brown Sugar Font Family", sans-serif;
-	font-size: 80px;
-	color: #ffa1a7;
+h3 {
+    font-family: 'Brown Sugar Font Family', sans-serif;
+    font-size: 80px;
+    color: #FFA1A7;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 /* Navigation Styling */
 nav {
-	font-family: "Anka Coder", sans-serif;
-	font-size: 28px;
-	text-align: center;
-	flex: 1;
+    font-family: 'Anka Coder', sans-serif;
+    font-size: 30px;
+    margin: 3px;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 2rem;
-	margin: 0;
+    display: inline-block;
+    margin: 0 40px;
 }
 
 nav ul li a {
-	color: #edeced;
-	text-decoration: none;
+    color: #EDECED;
+    text-decoration: none;
+    padding: 10px;
 }
 
 nav ul li a:hover {
-	color: #ffa1a7;
-	text-decoration: underline;
+    color: #FFA1A7;
+    text-decoration: underline;
 }
 
-.homelink {
-	color: transparent;
-	text-decoration: none;
-}
-.homelink:hover {
-	text-decoration: none !important;
-}
-
-.active {
-	color: #ffa1a7;
+nav ul li.active a {
+    color: #FFA1A7;
+    text-decoration: underline;
 }
 
 /* Container Fluid Styling */
@@ -132,8 +122,8 @@ nav ul li a:hover {
 /* Get In Touch Section Styling */
 .get-in-touch-section {
 	max-width: 600px;
-	/* margin: 20px auto; */
-	/* padding: 20px; */
+	margin: 20px auto;
+	padding: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	font-family: "Abhaya Libre", sans-serif;
 	background-color: transparent;
@@ -143,7 +133,7 @@ nav ul li a:hover {
 /* Contact Form Section Styling */
 .contact-form-section {
 	max-width: 600px;
-	/* margin: 20px auto; */
+	margin: 20px auto; 
 	padding: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	font-family: "Abhaya Libre", sans-serif;
@@ -155,6 +145,51 @@ nav ul li a:hover {
 form {
 	width: 100%;
 	box-sizing: border-box;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 12px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #000000;
+	color: #ffa1a7;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 32px;
+	transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+	background-color: transparent;
+	border: 1px solid #000000;
+	color: #000000;
+	transform: scale(1.1);
+}
+
+/* Address Positioning */
+
+/* Footer */
+.footer {
+	color: black;
+	text-align: center;
+	padding: 8px;
+	background-color: #ffa1a7;
+}
+
+.footer p {
+	margin-bottom: 0;
 }
 
 label {
