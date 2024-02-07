@@ -33,15 +33,34 @@ body {
 	background-color: var(--black-color);
 }
 
+/* header */
+
+/* header {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+	position: sticky;
+	justify-content: space-between;
+	top: 0;
+	background: var(--black-color);
+	padding: 1.2rem 3rem;
+	z-index: 1;
+} */
+
 header {
 	display: flex;
 	align-items: center;
 	gap: 5rem;
 	position: sticky;
-	top: 0;
 	background: var(--black-color);
-	padding: 1.2rem 3.5rem;
-	z-index: 1;
+	padding: 1rem 3rem;
+}
+#realnav {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+	justify-content: space-between;
+	top: 0;
 }
 
 .logo {
@@ -52,7 +71,11 @@ header {
 	gap: 0;
 }
 
-h2 {
+#active {
+	color: #ffa1a7;
+}
+
+.logo h2 {
 	font-family: "Brown Sugar Font Family", sans-serif;
 	font-size: 60px;
 	margin: 0;
@@ -60,7 +83,7 @@ h2 {
 	line-height: 0.8;
 }
 
-h3 {
+.logo h3 {
 	margin: 0;
 	font-family: "code", sans-serif;
 	font-size: 21px;
@@ -68,11 +91,14 @@ h3 {
 	line-height: 0.8;
 }
 
+/* navigation */
+
 nav {
 	font-family: "Anka Coder", sans-serif;
 	font-size: 28px;
 	text-align: center;
-	flex: 1;
+
+	/* flex: 1; */
 }
 
 nav ul li {
@@ -89,9 +115,16 @@ nav ul {
 	margin: 0;
 }
 
-nav ul li a, #l a {
+#navbarNav ul li a:hover {
+	color: #ffa1a7;
+	text-decoration: underline;
+	margin-right: 0;
+}
+nav ul li a,
+#l a {
 	color: var(--white-color);
 	text-decoration: none;
+	margin: 0;
 }
 
 nav ul li a:hover {
@@ -107,13 +140,25 @@ nav ul li a:hover {
 	color: transparent;
 	text-decoration: none;
 }
+#flexy {
+	flex: 1;
+}
 
+#l {
+	font-family: "Anka Coder", sans-serif;
+	font-size: 28px;
+	/* margin: 5px; */
+	text-align: center;
+	/* padding: 0 10px; */
+}
+
+/* main body */
 .container-sect {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem 3rem 0 3rem;
+	padding: 1rem 3rem 0 3rem;
 	margin-bottom: 0;
 }
 .herosection {
@@ -204,6 +249,7 @@ button a {
 	margin-bottom: 0;
 }
 
+/* responsiveness */
 @media only screen and (max-width: 600px) {
 	.herosection {
 		flex-direction: column;
@@ -242,7 +288,8 @@ button a {
 		gap: 0.5rem;
 		padding: 1rem;
 	}
-	.big-img, .big-img img {
+	.big-img,
+	.big-img img {
 		width: 100%;
 	}
 }
